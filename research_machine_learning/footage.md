@@ -24,6 +24,17 @@ Think of something you would like your Pi to detect for you, a simple on/off cat
   * Is the Pi on its side?
 
 # Capture footage that includes the "yes" and "no" state in multiple contexts
+
+We've included a script to capture images from the camera attached to the pi called `capture.py`. It will capture an image approximately every 3 seconds and save it to the `images/captured_images` directory, saving the filename as the timestamp the image was taken. You can view these images through cyberduck. We recommend capturing between 20-100 images of each "state" that you are testing. For example if you were to do the "Is there a coffee cup?" example, it would be a good idea to capture between 20 and 100 images, with a coffee cup in the image and no coffee cup in the image. To run the script, make sure you are in the `pi_camera_detetction` folder and run:
+
+```bash
+python capture.py
+```
+
 # Split the footage into separate images.
 
+This might not be relevant anymore since we capture images?
+
 # Get the images off the Pi
+
+You can access the images on the raspberry pi by using Cyberduck. To pull all captured images of the pi, you can simply download the `images/captured_images` folder to your local machine through Cyberduck.
