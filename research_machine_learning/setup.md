@@ -84,9 +84,10 @@ Finally we can finish by using `pip` to install the required python libraries:
 
 - `tflite-runtime`: Tensorflow lite
 - `Pillow`: For inteacting with images.
+- `picamera`: For using the NoIR camera.
 
 ```
-pip install tflite-runtime Pillow
+pip install tflite-runtime Pillow picamera
 ```
 
 # Installing the camera
