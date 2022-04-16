@@ -74,9 +74,10 @@ Then we will need to install the following libraries:
 - `pip`: The python package manager - this is how we will install the majority of our python libraries.
 - `python3-numpy`: We need to install this for compatability reasons.
 - `libjpeg-dev`: We need to install this for the python library `Pillow`
+- `libopenjp2-7`: Also needed by `Pillow`
 
 ```
-sudo apt-get install git pip python3-numpy libjpeg-dev
+sudo apt-get install git pip python3-numpy libjpeg-dev libopenjp2-7
 ```
 
 Finally we can finish by using `pip` to install the required python libraries:
