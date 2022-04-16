@@ -98,6 +98,17 @@ You have been supplied with a Pi "NoIR" camera module. The following animation (
 
 We will need to dig a bit deeper into how to use the Pi before we can start getting images off the camera.
 
+## Enabling the Camera
+
+Now we have to enable to camera on the pi:
+1. Type `sudo raspi-config` in the terminal to bring up the pi's configuration options.
+2. Select `3 Interface Options`.
+3. Select `I1 Legacy Camera`.
+4. Select `Yes` when asked if you want to engale legacy camera support.
+5. Select `Ok` on the deprecation notice.
+6. Press `Esc` to get out of `raspi-config`.
+7. Restart the pi by typing `sudo reboot` into the console.
+
 # Getting things on and off the Pi
 
 At this point you have the Pi connected to the internet, you can see the terminal via the monitor and you can send information to it via the keyboard.
